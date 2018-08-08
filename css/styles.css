@@ -1,0 +1,149 @@
+body{
+    background-color: whitesmoke;
+}
+
+header{
+    background-color: #55d6aa;
+}
+
+.loglink{
+    background: white;
+    text-align: right;
+    font-size: 16px;
+    border-bottom: 2px solid white;
+}
+
+.name{
+    display: inline;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.log{
+    margin-right: 10px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.logo {
+    color:white;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.subtitle {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+select{
+    margin:0 auto;
+    display:block;
+    margin-bottom: 5px;
+    width: 300px;
+}
+
+option{
+    text-align: center;
+}
+
+button{
+    margin:0 auto;
+    display:block;
+    width: 300px;
+}
+
+.selform{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 60px;
+    padding-bottom: 20px;
+}
+
+.linkbutt{
+    margin-top:30px;
+    margin-bottom:0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 2px solid #444;
+    font-size: 20px;
+    width: 70%;
+    
+}
+.VideoLinks {
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.linkin{
+    margin:0 auto;
+    display:block;
+    margin-bottom: 5px;
+    width: 296px;
+}
+
+.loginform{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:90px;
+    width:50%;
+}
+
+.logfield{
+    margin: 0 auto;
+    display: block;
+    width: 280px;
+
+}
+
+.logbutton{
+    width: 283px;
+}
